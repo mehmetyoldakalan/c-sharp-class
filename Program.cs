@@ -6,6 +6,20 @@ using System.Threading.Tasks;
 
 namespace NesneTabanlıProgramlamaOdev
 {
+    class Musteri
+    {
+      
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
+        public string OgrNo { get; set; }
+        public int Yas { get; set; }
+        public string Meslek { get; set; }
+        public string Maas { get; set; }
+
+
+
+
+    }
     class Program
     {
         static void Main(string[] args)
